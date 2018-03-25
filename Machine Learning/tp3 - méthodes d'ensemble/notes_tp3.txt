@@ -1,0 +1,14 @@
+y = argmax F_c(x)
+	c=1:K
+
+F_c est un classifieur tel que: 
++1 si classe C
+-1 si classe != C
+
+avec:
+Fc(x) = sum(d=1,D) de a_d * F_cd(x(d))
+
+X classes
+Y variables
+=> il faut X*Y classifieurs
+
